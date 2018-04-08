@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="5dp">
+
+    <com.appendous.suntisttask.util.TextViewFuturaMdBt
+        android:id="@+id/tv_rowitem_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:textSize="10sp"
+        android:textColor="@color/colorBlack"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <com.appendous.suntisttask.util.TextViewFuturaMdBt
+        android:id="@+id/tv_rowitem_tel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="999999999"
+        android:textSize="10sp"
+        android:textColor="@color/colorBlack"
+        android:textAllCaps="false"
+        android:autoLink="phone"
+        android:textColorLink="@color/colorAccent"
+        android:linksClickable="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+    <com.appendous.suntisttask.util.TextViewFuturaMdBt
+        android:id="@+id/tv_rowitem_sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gender"
+        android:textSize="10sp"
+        android:textColor="@color/colorBlack"
+        android:textAllCaps="false"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</android.support.constraint.ConstraintLayout>

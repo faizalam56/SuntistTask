@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Suntist Task</string>
+
+    <string name="facebook_app_id">2077803718926456</string>
+    <string name="fb_login_protocol_scheme">fb2077803718926456</string>
+    //app
+    <string name="welcome">Welcome,</string>
+    <string name="header">SUNTIST</string>
+    <string name="hint_name">Enter your name</string>
+    <string name="hint_tel">Enter your telephone number</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="submit">Submit</string>
+    <string name="name">Name</string>
+    <string name="telephone">Tel</string>
+    <string name="sex">Sex</string>
+</resources>
